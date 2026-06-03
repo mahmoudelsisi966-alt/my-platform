@@ -1,6 +1,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html dir="rtl" lang="ar">
 <head>
@@ -9,48 +10,37 @@
     <title>CONCRETE ONE</title>
     <style>
         body { background: #0a0c10; color: #ffffff; font-family: sans-serif; margin: 0; padding: 20px; }
-        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; }
-        
-        /* تنسيقات المكونات السابقة */
-        .card { padding: 18px; background: #16191f; border: 1px solid #282c35; border-radius: 16px; color: #fff; margin-bottom: 12px; cursor: pointer; display: flex; flex-direction: column; gap: 5px; border: none; width: 100%; text-align: right; }
+        .card { padding: 18px; background: #16191f; border: 1px solid #282c35; border-radius: 16px; color: #fff; margin-bottom: 12px; border: none; width: 100%; text-align: right; }
         .analytics-box { background: #111; padding: 15px; border-radius: 15px; border: 1px solid #00ffaa; margin-top: 20px; }
         .calculator-box { padding: 20px; background: #1a1a1a; border-radius: 20px; margin-top: 20px; border: 1px solid #ffcc00; }
         .grid-materials { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
-        .mat-btn { padding: 10px; background: #333; border: none; border-radius: 8px; color: #00ffaa; cursor: pointer; text-align: center; }
-        .smart-contract-btn { padding: 15px; background: linear-gradient(90deg, #00ffaa, #004d40); border: none; border-radius: 10px; font-weight: bold; color: #000; cursor: pointer; width: 100%; margin-top: 15px; }
+        .mat-btn { padding: 10px; background: #333; border: none; border-radius: 8px; color: #00ffaa; text-align: center; }
+        .smart-contract-btn { padding: 15px; background: linear-gradient(90deg, #00ffaa, #004d40); border: none; border-radius: 10px; font-weight: bold; color: #000; width: 100%; margin-top: 15px; }
         .global-bridge { padding: 20px; background: #000; border: 2px dashed #ff3300; margin-top: 20px; border-radius: 15px; }
-        .sync-btn { padding: 12px; background: #ff3300; color: #fff; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; width: 100%; }
-
-        /* تنسيق المكون الخامس الجديد */
-        .elite-hub { padding: 20px; background: #fff; color: #000; border-radius: 20px; margin-top: 20px; border: 2px solid #000; }
-        .btn-gold-style { padding: 12px; background: #000; color: #ffcc00; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; width: 100%; margin-bottom: 10px; }
+        .sync-btn { padding: 12px; background: #ff3300; color: #fff; border: none; border-radius: 5px; font-weight: bold; width: 100%; }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1 style="color: #ffcc00; margin: 0;">CONCRETE ONE</h1>
-        <div style="width: 40px; height: 40px; background: #1c1e22; border-radius: 50%;"></div>
-    </div>
-
-    <button class="card" onclick="alert('تفعيل: اعتماد الصب')">
+    <h1 style="color: #ffcc00; text-align: center;">CONCRETE ONE</h1>
+    
+    <div class="card">
         <span style="font-size: 16px; font-weight: bold;">اعتماد الصب</span>
         <span style="font-size: 10px; color: #888;">نظام آمن وموثق</span>
-    </button>
-    <button class="card" onclick="alert('تفعيل: فحص المعدات')">
+    </div>
+    <div class="card">
         <span style="font-size: 16px; font-weight: bold;">فحص المعدات</span>
         <span style="font-size: 10px; color: #888;">بمب / خلاطة / سيلو</span>
-    </button>
+    </div>
 
     <div class="analytics-box">
         <h4 style="color: #00ffaa; margin: 0 0 10px 0;">🌐 نبض السوق الآن</h4>
-        <div style="display: flex; justify-content: space-between; font-size: 12px; color: #fff;">
-            <span>الصفقات النشطة: 1,240</span>
-            <span>المعدات الموثقة: 850</span>
+        <div style="display: flex; justify-content: space-between; font-size: 12px;">
+            <span>النشطة: 1,240</span> <span>الموثقة: 850</span>
         </div>
     </div>
 
     <div class="calculator-box">
-        <h3 style="color: #fff; text-align: center; margin-top: 0;">📐 حاسبة الكميات الذكية</h3>
+        <h3 style="color: #fff; text-align: center; margin-top: 0;">📐 حاسبة الكميات</h3>
         <div class="grid-materials">
             <button class="mat-btn">سن ⚙️</button>
             <button class="mat-btn">رمل ⚙️</button>
@@ -60,20 +50,14 @@
         </div>
     </div>
 
-    <button class="smart-contract-btn" onclick="alert('جاري إصدار عقد ضمان رقمي...')">
-        🛡️ إصدار عقد ضمان رقمي (Smart Contract)
-    </button>
+    <button class="smart-contract-btn">🛡️ إصدار عقد ضمان رقمي</button>
 
     <div class="global-bridge">
-        <h3 style="color: #ff3300; text-align: center; margin-top: 0;">🌍 جسر الصفقات العالمي</h3>
-        <button class="sync-btn" onclick="alert('جارٍ الربط مع فيسبوك/تويتر.. سحب طلبات الحديد والأسمنت تلقائياً..')">
-            سحب طلبات من Facebook/Twitter
-        </button>
+        <h3 style="color: #ff3300; text-align: center; margin-top: 0;">🌍 جسر الصفقات</h3>
+        <button class="sync-btn">سحب طلبات من Facebook/Twitter</button>
     </div>
-
-
-
-
+</body>
+</html>
 
 
 
