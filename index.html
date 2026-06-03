@@ -3,7 +3,6 @@
 
 
 
-
 <!DOCTYPE html>
 <html dir="rtl" lang="ar">
 <head>
@@ -13,12 +12,12 @@
     <style>
         body { background: #0a0c10; color: #ffffff; font-family: sans-serif; margin: 0; padding: 15px; }
         .box { background: #16191f; border: 1px solid #282c35; border-radius: 15px; padding: 15px; margin-bottom: 15px; }
-        h3 { color: #ffcc00; text-align: center; margin-top: 0; }
-        button { width: 100%; padding: 12px; border-radius: 10px; border: none; cursor: pointer; font-weight: bold; margin-top: 10px; }
+        h3 { color: #ffcc00; text-align: center; margin-top: 0; margin-bottom: 15px; }
+        button { width: 100%; padding: 12px; border-radius: 10px; border: none; cursor: pointer; font-weight: bold; margin-bottom: 10px; }
         .btn-gold { background: #ffcc00; color: #000; }
         .btn-green { background: #00ffaa; color: #000; }
         .btn-red { background: #ff3300; color: #fff; }
-        .elite-box { background: #fff !important; color: #000 !important; }
+        .btn-dark { background: #333; color: #fff; }
     </style>
 </head>
 <body>
@@ -31,11 +30,11 @@
 
     <div class="box">
         <h3>حاسبة الكميات</h3>
-        <div style="display:grid; grid-template-columns:1fr 1fr; gap:5px;">
-            <button style="background:#333; color:#fff;">سن</button>
-            <button style="background:#333; color:#fff;">رمل</button>
-            <button style="background:#333; color:#fff;">إسمنت</button>
-            <button style="background:#333; color:#fff;">زلط</button>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+            <button class="btn-dark">سن</button>
+            <button class="btn-dark">رمل</button>
+            <button class="btn-dark">إسمنت</button>
+            <button class="btn-dark">زلط</button>
         </div>
     </div>
 
@@ -48,14 +47,10 @@
         <button class="btn-red">سحب طلبات Facebook/Twitter</button>
     </div>
 
-    <div class="box elite-box">
-        <h3>🏆 العضوية الذهبية</h3>
+    <div class="box" style="background:#fff; color:#000;">
+        <h3 style="color:#000;">🏆 العضوية الذهبية</h3>
         <button class="btn-gold">خصومات VIP</button>
+        <button class="btn-dark">نظام نقاط الولاء</button>
     </div>
 </body>
 </html>
-
-
-
-
-
